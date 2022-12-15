@@ -1,0 +1,13 @@
+.main_container_child {
+    width: 80%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+    .main_container_child {
+        width: 100%;
+    }
+}

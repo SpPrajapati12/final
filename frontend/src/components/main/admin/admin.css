@@ -1,0 +1,24 @@
+.admin_header {
+    margin: 10px 0;
+    background-color: rgb(237, 243, 241);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.component form {
+    text-align: left;
+    padding: 0;
+    align-items: inherit;
+}
+
+.admin_form_btn {
+    background-color: green;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.admin_form_btn:hover {
+    background-color: rgb(50, 165, 50);
+    color: white;
+    transform: scale(1.1);
+}
